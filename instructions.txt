@@ -1,0 +1,21 @@
+Steps to Run the Project:
+Open Terminal: Open a terminal window and navigate to the directory containing the project files.
+
+Set Script Permissions: Before running the script, you need to make it executable. Type the following command in the terminal:
+chmod +x script.sh
+Execute the script by typing:
+./script.sh
+
+This will compile the C programs and run the experiments automatically.
+
+Monitor the Process: Watch the terminal for any messages or prompts. The script will display messages indicating which part of the project it is currently running.
+
+View Results: After the script has finished running, the results of the experiments will be displayed in the terminal.
+
+Troubleshooting:
+If you encounter permission issues, ensure that the script and all .c files are in your current directory and that you have the necessary permissions to execute files in that directory.
+In case of compilation errors, check that your GCC compiler is correctly installed and that all source code files are free of errors.
+If the script fails to find the test files, verify that they are in the same directory as the script or update their paths in the script accordingly.
+Additional Notes:
+The script runs experiments for all parts of the project. If you wish to run only specific parts, you can modify the script by commenting out or removing the corresponding sections.
+Running parts of the script that clear system caches may require administrative privileges.
